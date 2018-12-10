@@ -1,0 +1,91 @@
+div.chat-application {
+    width: 100%;
+    height: 84vh;
+   
+}
+
+.chat-application .chat-name {
+    background-color: rgb(4, 185, 182) !important;
+    margin-left: 0px;
+    margin-right: 300px;
+    border-bottom : 1px solid #E4E7ED;
+}
+
+.chat-application .chat-app-window {
+    background: none;
+    background-color: rgb(244, 248, 248) !important;
+    margin-left: 0px;
+    margin-right: 300px;
+    padding : 20px 30px;
+    overflow-y : scroll;
+    text-align : center;
+    height : -webkit-calc(100% - 183px);
+    height :    -moz-calc(100% - 183px);
+    height :         calc(100% - 183px);
+    position : relative;
+}
+
+.chat-application .chat-app-form {
+    background-color: rgb(4, 185, 182) !important;
+    margin-left: 0px;
+    margin-right: 300px;
+    position : relative;
+    padding : 20px 10px;
+    overflow : hidden;
+}
+
+.chat-application .chats .chat-body .chat-content {
+    background-color: rgb(35, 201, 198);
+    font-size: 1rem;
+}
+
+.chat-application .chats .chat-body .chat-content:before {
+    position: fixed;
+    top: 10px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 5px solid transparent;
+    border-left-color: #6cd7dc;
+}
+
+@media (max-width: 767.98px) {
+    .chat-application .chat-app-window {
+      height : -webkit-calc(100% - 152px);
+      height :    -moz-calc(100% - 152px);
+      height :         calc(100% - 152px);
+      margin-right : 0;
+    }
+    .chat-application .chat-app-form {
+      margin-right : 0;
+    }
+    .chat-application .chat-name {
+      margin-right : 0;
+    }
+    .chat-application .chat-sidebar {
+        right : 0;
+    }
+  }
+
+.chat-application .chat-sidebar {
+    background : white;
+    position : relative;
+    width : 300px;
+    border-right : 1px solid #E4E7ED;
+    height: 80vh;
+    
+}
+.chat-application .chat-fixed-search {
+    height: 64px;
+    width : 300px;
+    position : relative;
+    z-index : 999;
+    background-color: rgb(4, 185, 182) !important;
+    border-left : 1px solid #E4E7ED;
+}
+
+
+.chat-application .users-list-padding {
+    padding-top : 0px;
+  }

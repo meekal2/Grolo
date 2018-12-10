@@ -1,0 +1,12 @@
+.login {
+    transition: .2s
+    
+}
+.login:hover {
+    transform: scale(1.05)
+}
+.groloRfqLogo{
+    height:50px;
+    width:110px;
+
+}
